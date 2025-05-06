@@ -258,7 +258,7 @@ pythontex-files-*/
 *.fff
 
 # Latexian
-TSWLatexianTemp*
+TSWianTemp*
 
 ## Editors:
 # WinEdt
