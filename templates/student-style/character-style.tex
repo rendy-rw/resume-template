@@ -1,10 +1,11 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10.5pt,a4paper]{article}
 
 % Margin lebih sempit agar space lebih banyak
-\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+\usepackage[left=1cm, right=1cm, top=1cm, bottom=1cm]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{tabularx}
 \usepackage{xcolor}
 \usepackage{colortbl}
 \usepackage{array} % untuk tabular yang rapi
@@ -16,8 +17,8 @@
 
 % Format of the section titles
 \titleformat{\section}
-  {\color[HTML]{666666}\bfseries\scshape\large\raggedright} % Warna abu gelap + tebal + small caps
-  {}{0em}{}
+{\color[HTML]{1F4E79}\bfseries\scshape\large\raggedright} % Biru profesional
+{}{0em}{}
 \titlespacing{\section}{0pt}{12pt}{5pt}
 %----------------------------------------------------
 
@@ -31,153 +32,137 @@
 \begin{document}
 
 \begin{center}
-    {\LARGE \textbf{Rendy Ramadhana Wahyudi}}\\
-    \vspace{0.2em}
-    Subsurface analyst | Tech-forward geophysics enthusiast
-    \rule{\textwidth}{0.4pt}
+  {\Huge{Rendy Ramadhana Wahyudi}}\\[0.5em]
+    
+  {\scshape \large Passionate Geophysicist \quad | \quad Seismic Data Enthusiast}\\[0.5em]
 
-    \small
-    Bandung, West Java \quad | \quad 
-    \href{mailto:rendy.rw.rw@gmail.com}{rendy.rw.rw@gmail.com} \quad | \quad
-    \href{https://rendy-rw.github.io/}{rendy-rw.github.io} \quad | \quad
-    \href{https://www.linkedin.com/in/rendywahyudi}{linkedin.com/in/rendywahyudi}
+  
+  \rule{\textwidth}{0.4pt}\\[0.5em]
+  \normalsize
+  Bandung, West Java \quad | \quad 
+  \href{mailto:rendy.rw.rw@gmail.com}{rendy.rw.rw@gmail.com} \quad | \quad
+  \href{https://rendy-rw.github.io/}{rendy-rw.github.io} \quad | \quad
+  \href{https://www.linkedin.com/in/rendywahyudi}{linkedin.com/in/rendywahyudi}
 \end{center}
-
 
 \section*{Professional Summary}
-Driven geophysics enthusiast with strong curiosity for the subsurface and a commitment to energy innovation. 
-Skilled in seismic interpretation and data analysis to support hydrocarbon exploration. 
-Proven ability to solve complex geoscience problems through creativity and collaboration. 
-Strong verbal and written communication, with an analytical mindset and hands-on approach.
-\vspace{0.2em}
-
+Fast-learning and flexible young professional with a passion for continuous learning and a solution-oriented mindset. Eager to leverage education and training in subsurface geoscience, combining a hands-on approach with strong attention to detail to support the effective transformation of seismic data into actionable insights. Demonstrates a proven ability to work collaboratively in teams or independently, with excellent verbal and written communication skills.
 \section*{Areas of Expertise}
-\begin{center}
+\noindent
 \renewcommand{\arraystretch}{1.2} % lebih padat
-\begin{tabular}{p{0.3\textwidth} p{0.3\textwidth} p{0.3\textwidth}}
-  \rowcolor[HTML]{F2F2F2} 
-  \ding{51} Seismic Interpretation & \ding{51} Geophysical Survey Design & \ding{51} Project Planning  \\
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+  \rowcolor[HTML]{EDF4FB} 
+  \ding{51} Seismic Processing  & \ding{51} GIS and Mapping Tools & \ding{51} Project Planning  \\
   \rowcolor[HTML]{FFFFFF} 
-  \ding{51} Subsurface Modeling & \ding{51} Data Acquisition & \ding{51} Signal Processing \\
-  \rowcolor[HTML]{F2F2F2} 
-  \ding{51} Python for Geoscience & \ding{51} Data Visualization & \ding{51} Quantitative Interpretation \\
-  \rowcolor[HTML]{FFFFFF} 
-  \ding{51} Scientific Writing & \ding{51} Geostatistics & \ding{51} Qualitative Interpretation \\
-  \end{tabular}    
-\end{center}
+  \ding{51} Geophysical Data Interpretation & \ding{51} Data Management and QC & \ding{51} Signal Processing \\
+  \rowcolor[HTML]{EDF4FB} 
+  \ding{51} Programming for Geoscience & \ding{51} Geostatistics & \ding{51} Scientific Writing \\
+\end{tabularx}
+
 
 \section*{Education}
 
-\noindent
+
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Master of Science, Physics}, Universitas Padjadjaran, Sumedang, West Java \hfill Expected 2025%
+    \textbf{Master of Science in Physics Engineering}, Universitas Padjadjaran, West Java \quad | \quad Nov 2023 - Aug 2025 (Expected)%
   }%
 }
 \begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Focus: Computational Physics, Seismic Analysis, and Subsurface Modeling.
-    \item Graduate research: Developing seismic-based disaster detection systems aligned with regional priorities.
+    \item \textbf{Capstone Project}: \textit{Developing seismic-based disaster detection systems aligned with regional priorities.}
 \end{itemize}
 
-\noindent
+\vspace{0.5em}
+
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Bachelor of Science, Geophysics}, Universitas Padjadjaran, Sumedang, West Java \hfill 2023%
+    \textbf{Bachelor of Science in Geophysical Engineering}, Universitas Padjadjaran, West Java \quad | \quad Aug 2019 - Jul 2023%
   }%
 }
 \begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Key topics: Seismic Interpretation, Earth Structure, Geophysical Instrumentation.
-    \item Final project: Prototype development of real-time disaster early warning system using geophysical signals.
+  \item \textbf{Capstone Project}: \textit{Prototype development of IoT-based distributed seismic sensor network}, published at \linebreak DOI: \href{https://doi.org/10.2991/978-2-38476-283-5_7}{10.2991/978-2-38476-283-5\_7}.
 \end{itemize}
 
 
-\vspace{0.3em}
+
+
 
 \section*{Leadership Experience}
 \noindent 
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Program Coordinator, Pembinaan Desa}, Himpunan Mahasiswa Geofisika Indonesia \hfill 2022%
+    \textbf{Program Coordinator, Village Empowerment}, HiMA GEOFISIKA PEDRA, UNPAD \quad | \quad Sep 2021 - Feb 2022%
   }%
 }
-\vspace{0.3em}
-coordinated long-term rural outreach, trained disaster awareness to 100+ residents.
+
+Coordinated long-term rural outreach, trained disaster awareness to 100+ residents.
 \begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Led semester-long rural development program involving weekly activities.
-    \item Conducted social mapping across 50+ households to design relevant engagement.
-    \item Collaborated with academics and community leaders to implement public education.
-    \item Delivered earthquake preparedness training to over 100 residents.
+  \item Conducted social mapping across 50+ households and collaborated to co-design impactful educational agendas.
+  \item Delivered earthquake preparedness workshops attended by 100+ residents, enhancing local resilience.
 \end{itemize}
+
+\vspace{0.5em}
 
 \noindent 
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Chair, Independence Day Celebration Committee}, Community Resident Group \hfill 2023%
+    \textbf{Chair, Independence Day Celebration Committee}, Community Resident Group \quad | \quad Aug 2021%
   }%
 }
-\vspace{0.3em}
-organized community-wide event in less than a week, fostering strong local engagement.
+
+Organized community-wide event in less than a week, fostering strong local engagement.
 \begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Initiated and led a team of 15 to organize a major Independence Day celebration.
-    \item Managed logistics for parades, children's activities, and technical event preparation.
-    \item Engaged over 50 households, strengthening neighborhood ties and inclusivity.
-    \item Built strong emotional bonding among volunteers through a family-oriented approach.
+  \item Led a diverse volunteer team of 15 to organize an inclusive Independence Day celebration.
+  \item Fostered participation from 50+ households, creating a sense of belonging across the community.
 \end{itemize}
 
-\vspace{0.3em}
+
 
 \section*{Professional Experience}
-\noindent
+
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Geophysical Engineer},  PT. Surya Brinka Persada, West Java \hfill 2022%
+    \textbf{Geophysical Engineer, Freelance},  PT. Surya Brinka Persada, West Java \quad | \quad Sep 2024 - Present%
   }%
 }
-\vspace{0.3em}
-lead team for acquisition resistivity survey, succeed completing one week ahead of schedule.
 \begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Led a team of 5 in 2D resistivity survey acquisition.
-    \item Successfully completed the project one week ahead of schedule.
-    \item Received positive feedback from the client for the team's performance.  
+    \item Led a team of 5 in survey design, data acquisition, processing, and preliminary interpretation, while managing and monitoring equipment to ensure accurate and reliable geophysical datasets.
+    \item Earned positive feedback for optimizing project execution, resulting in up to 50\% savings in both time and budget.  
 \end{itemize}
 
-\noindent
+\vspace{0.5em}
+
 \setlength{\fboxsep}{0pt}%
-\colorbox[HTML]{F2F2F2}{%
+\colorbox[HTML]{EDF4FB}{%
   \parbox{\linewidth}{%
-    \textbf{Geoscience Surveyor }, Yayasan Sedekah Air, Jakarta \hfill 2022%
+    \textbf{Geoscience Surveyor, Volunteer}, Yayasan Sedekah Air, Jakarta \quad | \quad Dec 2022 - Present%
   }%
 }
-\vspace{0.3em}
-give training t ocollague, completed survey in rural area in Central Java.
-\begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
-    \item Trained 3 new surveyors in geophysical survey techniques.
-    \item Successfully completed a survey in a rural area of Central Java.
-    \item Received positive feedback from the team for effective training methods.
-\end{itemize}
 
-\vspace{0.3em}
+\begin{itemize}[left=1.5em, noitemsep, topsep=0pt]
+    \item Liaised with local communities as key stakeholders, communicating technical assessments of potential groundwater sources while managing expectations to ensure alignment with both community needs and environmental standards.
+    \item Conducted geological and geophysical surveys using the resistivity method, including data quality control, real-time monitoring, and interpretation to ensure reliable subsurface characterization.
+    \item Provided viable water sources for 50 to 100 households and public facilities (e.g., places of worship and schools) by utilizing accurate, reliable geophysical data to guide effective groundwater development.
+  \end{itemize}
 
 \section*{Certificates \& Grant}
-\noindent
-TOEFL ITP Score: 527 \hfill Universitas Indonesia \\
-Copyright: Educational Documentary Film \hfill Kemenkumham \\
-Graduate Research Grant \hfill Kemendikbud \\
-Graduate Scholarship Awardee \hfill JFLS, Disdik Jabar 
 
-\vspace{0.3em}
+\textbf{TOEFL ITP Score: 527}, Universitas Indonesia \quad | \quad Jul 2024 \\
+\textbf{Copyright: Educational Documentary Film}, Kemenkumham \quad | \quad Apr 2023\\
+\textbf{Graduate Research Grant}, Kemendikbud \quad | \quad Aug 2024 \\
+\textbf{Graduate Scholarship Awardee}, JFLS, Disdik Jabar \quad | \quad Feb 2025
 
 \section*{Technical Skills}
-\noindent
-\textbf{Programming}: Python, C++, MATLAB \hspace{1em}
-\textbf{Geoscience Software}: Res2Dinv, Petrel, Geopsy, QGIS, Surfer \hspace{1em}
-\textbf{Documentation \& Reporting}: LaTeX, Scientific Writing \& Technical Reporting \hspace{1em}
-\textbf{Project Management \& Collaboration}: Trello, Notion \hspace{1em}
-\textbf{Operating System}: Linux (Ubuntu)
+
+\textbf{Programming}: Python, C++, MATLAB  \quad | \quad
+\textbf{Geoscience Software}: Res2Dinv, Petrel, Geopsy, QGIS, Surfer  \quad | \quad
+\textbf{Documentation \& Reporting}: LaTeX, Scientific Writing \& Technical Reporting  \quad | \quad
+\textbf{Project Management \& Collaboration}: Trello, Notion  \quad | \quad
+\textbf{Operating System}: Windows, Linux (Ubuntu)
 
 \end{document}
